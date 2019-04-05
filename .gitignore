@@ -1,0 +1,14 @@
+# Created by https://www.gitignore.io/api/scala
+# Edit at https://www.gitignore.io/?templates=scala
+
+### Scala ###
+*.class
+*.log
+
+# End of https://www.gitignore.io/api/scala
+
+# Generated target files
+target
+
+# Editor files
+/.idea
