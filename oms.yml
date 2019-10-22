@@ -1,4 +1,4 @@
-omg: 1
+oms: 1
 info:
   version: 1.0.0
   title: Your microservice
@@ -8,7 +8,7 @@ info:
     url: https://opensource.org/licenses/Apache-2.0
 lifecycle:
   startup:
-    command: ["/app/bin/omg-scala-template"]
+    command: ["/app/bin/oms-scala-template"]
 health:
   http:
     path: /health
