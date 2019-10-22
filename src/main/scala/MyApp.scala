@@ -45,6 +45,11 @@ class MyService() extends Directives with JsonSupport {
     .result()
 
   val route =
+    path("health") {
+      get {
+        complete("OK")
+      }
+    } ~
     handleRejections(rejectionHandler) {
       handleExceptions(exceptionHandler) {
         extractRequestContext { ctx =>
