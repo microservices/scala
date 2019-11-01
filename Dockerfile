@@ -14,4 +14,4 @@ RUN         apk add --update bash
 RUN         mkdir /app
 WORKDIR		/app
 COPY 		--from=builder /scala/target/universal/stage .
-ENTRYPOINT  /app/bin/omg-scala-template
+ENTRYPOINT  /app/bin/oms-scala-template
