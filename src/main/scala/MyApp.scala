@@ -22,7 +22,7 @@ trait JsonSupport extends SprayJsonSupport with DefaultJsonProtocol {
 
 class MyService() extends Directives with JsonSupport {
 
-  implicit val system = ActorSystem("omg-scala-template")
+  implicit val system = ActorSystem("oms-scala-template")
   implicit val executionContext = system.dispatcher
 
   val exceptionHandler = ExceptionHandler {
@@ -69,7 +69,7 @@ class MyService() extends Directives with JsonSupport {
 object MyApp {
   def main(args: Array[String]) {
 
-    implicit val system = ActorSystem("omg-scala-template")
+    implicit val system = ActorSystem("oms-scala-template")
     implicit val materializer = ActorMaterializer()
     implicit val executionContext = system.dispatcher
 
