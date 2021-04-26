@@ -8,7 +8,7 @@ scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 mainClass in Compile := Some("MyApp")
 
 libraryDependencies ++= {
-  val akkaHttpVersion = "10.0.10"
+  val akkaHttpVersion = "10.1.14"
 
   Seq(
     "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
