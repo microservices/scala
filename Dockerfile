@@ -1,4 +1,4 @@
-FROM 		hseeberger/scala-sbt:8u181_2.12.6_1.2.1 as builder
+FROM 		hseeberger/scala-sbt:8u282_1.5.4_3.0.0 as builder
 WORKDIR		/scala
 COPY		build.sbt /scala/
 RUN 		mkdir /scala/project
